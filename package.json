@@ -1,0 +1,34 @@
+{
+	"name": "openapi-snippets",
+	"displayName": "OpenApi 3.0.0 Snippets",
+	"description": "Standard snippet for speed up writing code OpenApi 3.0.0 in YML",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.14.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"icon": "images/logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/restuwahyu13/openapi-snippets.git"
+	},
+	"bugs": {
+		"url": "https://github.com/restuwahyu13/openapi-snippets/issues.git"
+	},
+	"author": {
+		"name": "restu wahyu saputra",
+		"email": "restuwahyu13@gmail.com",
+		"url": "https://github.com/restuwahyu13"
+	},
+	"publisher": "restuwahyu13",
+	"contributes": {
+		"snippets": [
+			{
+				"language": "yaml",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}
